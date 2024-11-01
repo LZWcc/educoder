@@ -11,15 +11,12 @@ int main()
     int step;
     // 请在Begin-End之间添加代码，计算密文存入 d 中
     /********** Begin *********/
-	cin >> c >> step ;
+    cin >> c >> step;
     char t = c + step;
-    
-    if(t>90)
-    {
+    if (t > 90){
         d = c + step - 26;
     }
-    else
-    {
+    else{
         d = c + step;
     }
     /********** End **********/

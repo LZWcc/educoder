@@ -15,10 +15,10 @@ int main()
     /********** Begin *********/
     cout << fixed;
     cout << setprecision(n) << PI << endl;
-    cout << setprecision(n+1) << PI << endl;
-    cout << setprecision(n+2) << PI << endl;
-    cout << setprecision(n+3) << PI << endl;
-    cout << setprecision(n+4) << PI << endl;
+    cout << setprecision(n + 1) << PI << endl;
+    cout << setprecision(n + 2) << PI << endl;
+    cout << setprecision(n + 3) << PI << endl;
+    cout << setprecision(n + 4) << PI << endl;
     /********** End **********/
     return 0;
 }
