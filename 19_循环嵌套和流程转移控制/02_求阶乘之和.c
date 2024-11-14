@@ -1,18 +1,15 @@
-
-
 void cycle1(){
-	/********** Begin **********/
+    /********** Begin **********/
     int total;
     for(int i=1,k=1;i<11;i++){
         k*=i;
         total+=k;
     }
     printf("%d\n",total);
-	/********** End **********/
+    /********** End **********/
 }
-
 void cycle2(){
-	/********** Begin **********/
+    /********** Begin **********/
     int total=0;
     for(int i=1,k=1;i<11;i++){
         k=1;
@@ -22,6 +19,6 @@ void cycle2(){
         total+=k;
     }
     printf("%d\n",total);
-	/********** End **********/
+    /********** End **********/
 }
 

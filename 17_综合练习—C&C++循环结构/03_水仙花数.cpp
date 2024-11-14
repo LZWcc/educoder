@@ -8,12 +8,12 @@ using namespace std;
 
 int main()
 {
-	/********* Begin *********/
+    /********* Begin *********/
     int a,b,c;
     for(int i=100;i<1000;i++){
         a=i/100;b=i/10%10;c=i%10;
         if(a*a*a+b*b*b+c*c*c==i)cout << i << " ";
     }    
-	/*********  End  *********/
-	return 0;
+    /*********  End  *********/
+    return 0;
 }

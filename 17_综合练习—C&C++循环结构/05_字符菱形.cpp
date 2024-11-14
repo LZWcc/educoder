@@ -7,8 +7,8 @@ using namespace std;
 
 int main()
 {
-	/********* Begin *********/
-	int n;
+    /********* Begin *********/
+    int n;
     cin >> n;
     for(int i=0;i<n;i++){
         for(int j=0;j<(n-i-1);j++)cout<<" ";
@@ -22,6 +22,6 @@ int main()
         for(int j=i-1;j>=0;j--)cout<<(char)('A'+j);
         cout<<endl;
     }
-	/*********  End  *********/
-	return 0;
+    /*********  End  *********/
+    return 0;
 }

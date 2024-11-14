@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	/********* Begin *********/
+    /********* Begin *********/
     int n;
     cin >> n;
     if(n>=0){
@@ -20,6 +20,6 @@ int main()
         cout << cnt << endl;
     }
     else cout << "Error" << endl;
-	/*********  End  *********/
-	return 0;
+    /*********  End  *********/
+    return 0;
 }

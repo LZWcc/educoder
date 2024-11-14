@@ -13,8 +13,4 @@ int main(){
     }
     printf("s = %f",sqrt(res));
 }
-
-
-
-
 /********** End **********/
