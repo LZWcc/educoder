@@ -5,6 +5,10 @@
 
 # 忽略测试用例文件
 *.test
+*.in
+*.out
+*.ans
+data.py
 
 # 忽略IDE相关文件
 .vscode/*

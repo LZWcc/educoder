@@ -1,5 +1,14 @@
 {
     "files.associations": {
-        "text_encoding": "c"
+        "text_encoding": "c",
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "span": "cpp",
+        "queue": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "new": "cpp"
     }
 }
